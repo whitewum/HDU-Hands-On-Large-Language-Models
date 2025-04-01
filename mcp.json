@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+      "weather": {
+          "command": "/opt/homebrew/anaconda3/bin/uv",
+          "args": [
+              "--directory",
+              "/Users/minwu/Library/CloudStorage/OneDrive-个人/work/juicefs/weather-server",
+              "run",
+              "weather.py"
+          ]
+      }
+  }
+}
