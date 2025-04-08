@@ -1,0 +1,16 @@
+streamlit
+torch
+pyaudio
+funasr
+sentence-transformers
+openai
+plotly
+pandas
+matplotlib
+python-dotenv
+plotly.io
+pillow
+playwright
+beautifulsoup4
+python-docx
+kaleido
