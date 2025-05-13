@@ -12,6 +12,7 @@ data = {
 }
 
 response = requests.post(url, headers=headers, json=data)
+content = response.json()['choices'][0]['message']['content']
 
 # 打印响应
-print(response.json())
+print(content)
