@@ -5,14 +5,7 @@
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Outlines – 高速结构化生成 Demo 2.3
-=================================
-修复 SQL 生成缺少空格/重复 LIMIT 的问题：
-- 在 SQL_GRAMMAR 中将关键字与必要空格写作同一个终结符；
-- 新增 ORDER BY 与 LIMIT 可选子句，且限制 LIMIT 仅出现一次；
-- 生成器示例新增结尾分号。
-"""
+
 
 import os, warnings, outlines, torch, json
 from transformers import AutoModelForCausalLM, AutoTokenizer
